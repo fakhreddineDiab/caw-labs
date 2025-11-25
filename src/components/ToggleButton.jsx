@@ -1,0 +1,2 @@
+import { useState } from 'react'
+export default function ToggleButton(){ const [count,setCount]=useState(0); return (<div><button onClick={()=>setCount(count+1)}>Toggle</button><p>{count%2===0?'Clicked':'Not Clicked'}</p></div>)}
