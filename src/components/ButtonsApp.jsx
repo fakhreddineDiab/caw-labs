@@ -1,0 +1,2 @@
+import { useState } from 'react'
+export default function ButtonsApp(){ const [msg,setMsg]=useState(''); return (<div><button onClick={()=>setMsg('Button 1 was clicked')}>Button 1</button><button onClick={()=>setMsg('Button 2 was clicked')}>Button 2</button><button onClick={()=>setMsg('Button 3 was clicked')}>Button 3</button><p>{msg}</p></div>)}

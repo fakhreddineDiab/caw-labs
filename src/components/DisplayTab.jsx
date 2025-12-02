@@ -1,0 +1,1 @@
+export default function DisplayTab(){ const tab=['hello','world','from','react']; return (<ul>{tab.map((x,i)=><li key={i}>{x}</li>)}</ul>)}

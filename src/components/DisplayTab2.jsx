@@ -1,0 +1,1 @@
+export default function DisplayTab2(){ const tab=['hello','world','from','react']; return (<div>{tab.map((x,i)=><p key={i}>Element {i+1} is: {x}</p>)}</div>)}

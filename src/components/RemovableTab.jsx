@@ -1,0 +1,2 @@
+import { useState } from 'react'
+export default function RemovableTab(){ const [tab,setTab]=useState(['hello','world','from','react']); const remove=i=>setTab(tab.filter((_,x)=>x!==i)); return (<div>{tab.map((x,i)=><p key={i} onClick={()=>remove(i)} style={{cursor:'pointer'}}>Element {i+1} is: {x}</p>)}</div>)}

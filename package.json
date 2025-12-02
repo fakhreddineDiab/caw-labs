@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "lab6-myfirstvite",
   "private": true,
   "version": "0.0.0",
@@ -23,5 +24,22 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
     "vite": "^7.2.4"
+=======
+  "name": "lab5-react",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^6.4.1"
+>>>>>>> b4864a648345e6e40ebe5f4e16cc840c9177bf1c
   }
 }

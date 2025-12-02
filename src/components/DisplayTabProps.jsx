@@ -1,0 +1,1 @@
+export default function DisplayTabProps({data}){ return (<ul>{data.map((x,i)=><li key={i}>{x}</li>)}</ul>)}
